@@ -1,0 +1,1 @@
+docker container run -d -p 3306:3306 -e POSTGRES_PASSWORD=docker_pwd -e POSTGRES_USER=docker_usr -e POSTGRES_DB=curso_docker -e POSTGRES_PASSWORD=desafio01 postgres
