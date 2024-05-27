@@ -1,0 +1,8 @@
+
+# O nome do banco de dados deve ser docker_db
+# O usuário de acesso ao banco deve ser docker_usr
+# A senha do usuário deve ser docker_pwd
+
+
+docker container run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=docker_pwd -e MYSQL_DATABASE=docker_db -e MYSQL_USER="docker_usr" -e MYSQL_PASSWORD=desafio02 mysql
+
